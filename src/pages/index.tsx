@@ -1,5 +1,5 @@
-import Head from 'next/head'
-import FirebaseList from '@/components/FirebaseList'
+import Head from 'next/head';
+import FirebaseList from '@/components/FirebaseList';
 
 export default function Home() {
   return (
@@ -12,5 +12,5 @@ export default function Home() {
       </Head>
       <FirebaseList />
     </>
-  )
+  );
 }
